@@ -11,7 +11,7 @@
 
 <style>
 	p {
-		color: var(--grey);
+		color: var(--black);
 		max-width: 40em;
 		margin: 8px 0 32px;
 	}

@@ -38,7 +38,7 @@
 	</ul>
 
 	<aside aria-hidden="true" class:visible={active !== null} style:top="{top}px" bind:offsetHeight={panelHeight}>
-		<span class="thumb"><img src={pieces[shown].image} alt="" /></span>
+		<img src={pieces[shown].image} alt="" />
 		<p>{pieces[shown].text}</p>
 		<span class="meta">{pieces[shown].pub}, {pieces[shown].year}</span>
 	</aside>
@@ -111,6 +111,14 @@
 
 	aside.visible {
 		opacity: 1;
+	}
+
+	/* show the whole image, whatever its shape */
+	aside img {
+		display: block;
+		width: 100%;
+		height: auto;
+		background: var(--tile);
 	}
 
 	aside p {
