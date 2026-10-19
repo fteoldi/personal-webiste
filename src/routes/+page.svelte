@@ -35,7 +35,7 @@
 	</section>
 
 	<h2>Selected work</h2>
-38:	<p class="note">Contributions ranged from data and research to visuals, code and writing</p>
+	<p class="note">Contributions ranged from data and research to visuals, code and writing</p>
 	<WorkList items={work} />
 
 	<footer>
