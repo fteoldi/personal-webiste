@@ -27,7 +27,7 @@
 			</p>
 			<p class="bio">
 				He joined The Economist in 2023. His work has also appeared in Domani, Bloomberg
-				Businessweek and The Wall Street Journal’s Daily Shot. He studied economics and political
+				Businessweek and the Daily Shot/WSJ. He studied economics and political
 				science at Bocconi and Columbia University, and is always looking for new ways to tell
 				stories with data. He is based in London.
 			</p>
