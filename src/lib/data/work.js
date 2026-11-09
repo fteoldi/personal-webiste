@@ -1,6 +1,7 @@
 // Selected work, newest first. image (optional) is shown on hover; files live in static/assets/.
 
 export const work = [
+	{ title: 'The Democrats’ extraordinary triumph, explained', pub: 'The Economist', year: 2026, image: 'midterms.png', url: 'https://www.economist.com/interactive/graphic-detail/2026/11/04/the-democrats-extraordinary-triumph-explained' },
 	{ title: 'The Big Mac index at 40', pub: 'The Economist', year: 2026, image: 'the-big-mac-index-at-40.jpg', url: 'https://www.economist.com/interactive/briefing/2026/07/30/the-big-mac-index-at-40' },
 	{ title: 'Boomers have the good life—but it could be longer', pub: 'The Economist', year: 2026, image: 'boomers-have-the-good-life-but-it-could-be-longer.jpg', url: 'https://www.economist.com/interactive/united-states/2026/06/17/boomers-have-the-good-life-but-it-could-be-longer' },
 	{ title: 'A giant succession wave is coming for family businesses', pub: 'The Economist', year: 2026, image: 'a-giant-succession-wave-is-coming-for-family-businesses.jpg', url: 'https://www.economist.com/interactive/business/2026/04/09/a-giant-succession-wave-is-coming-for-family-businesses' },
