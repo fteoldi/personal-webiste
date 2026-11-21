@@ -49,10 +49,13 @@
 				onmouseleave={() => (image = null)}
 			>
 				{item.title}
-				<small bind:this={details[i]} class:wrapped={wrapped[i]}
-					><span class="bar">|</span> {item.pub}, {item.year}</small
-				>
-				<span class="meta">{item.pub}, {item.year}</span>
+				<!-- "Publication, year" only on the first piece of each publication and year -->
+				{#if i === 0 || items[i - 1].pub !== item.pub || items[i - 1].year !== item.year}
+					<small bind:this={details[i]} class:wrapped={wrapped[i]}
+						><span class="bar">|</span> {item.pub}, {item.year}</small
+					>
+					<span class="meta">{item.pub}, {item.year}</span>
+				{/if}
 			</a>
 		</li>
 	{/each}
